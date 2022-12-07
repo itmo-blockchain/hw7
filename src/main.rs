@@ -65,6 +65,6 @@ fn main() {
             }
         };
     
-        println!("{}: {}", line, get_bilet_num(&line, args.parameter, args.numbilets));
+        println!("{}: {}", line.trim(), get_bilet_num(line.trim(), args.parameter, args.numbilets));
     }   
 }
